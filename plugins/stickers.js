@@ -1,5 +1,4 @@
 /*Codded by Tahta Bot
-
 Special Thanks:
 Fazone
 Sanzking
@@ -34,8 +33,9 @@ Asena.addCommand({pattern: 'sticker', fromMe: true, deleteCommand: false, desc: 
             if (err) {
                 throw err;
             }
-        
-            await message.sendMessage(fs.readFileSync('./output.webp'), MessageType.sticker)
+
+            await message.sendMessage(fs.readFileSync('./output.webp'), MessageType.sticker);
+        });
     }
 
     ffmpeg(location)
@@ -44,5 +44,4 @@ Asena.addCommand({pattern: 'sticker', fromMe: true, deleteCommand: false, desc: 
         .on('end', async () => {
             await message.sendMessage(fs.readFileSync('sticker.webp'), MessageType.sticker);
         });
-    return await downloading.delete();
 }));
