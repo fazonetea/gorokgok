@@ -1,8 +1,8 @@
 FROM fusuf/whatsasena:publicbeta
 
-RUN git clone https://github.com/fazonetea/WhatSgorokgok /root/WhatSgorokgok
-RUN mkdir /root/WhatSgorokgok/bin/
-WORKDIR /root/WhatSgorokgok/
+RUN git clone https://github.com/fazonetea/gorokgok /root/gorokgok
+RUN mkdir /root/gorokgok/bin/
+WORKDIR /root/gorokgok/
 
 ENV TZ=Europe/Istanbul
 RUN apk --no-cache --virtual build-dependencies add \
