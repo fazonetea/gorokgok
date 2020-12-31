@@ -2,13 +2,13 @@
   "name": "whatsGorokgok",
   "version": "1.9.0",
   "description": "WhatsGorokgok - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./whatsGorokgok/bot.js",
+  "main": "./gorokgok/bot.js",
   "scripts": {
-    "start": "./whatsGorokgok/bot.js"
+    "start": "./gorokgok/bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Quiec/WhatsAsena.git"
+    "url": "git+https://github.com/fazonetea/gorokgok.git"
   },
   "keywords": [
     "whatsapp"
@@ -16,9 +16,9 @@
   "author": "FAZONE",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Quiec/WhatsAsena/issues"
+    "url": "https://github.com/fazonetea/gorokgok/issues"
   },
-  "homepage": "https://github.com/Quiec/WhatsAsena#readme",
+  "homepage": "https://github.com/fazonetea/gorokgok#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^3.3.2",
     "browser-id3-writer": "^4.4.0",
